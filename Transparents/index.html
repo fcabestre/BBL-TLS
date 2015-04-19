@@ -55,12 +55,17 @@
                 <h2>Repères historiques</h2>
 
                 <ul>
-                    <span class="fragment"><li>1994 - Secure Socket Layer 1.0</li></span>
-                    <span class="fragment"><li>1995 - Secure Socket Layer 2.0</li></span>
-                    <span class="fragment"><li>1996 - Secure Socket Layer 3.0</li></span>
-                    <span class="fragment"><li>1999 - Transport Layer Security 1.0</li></span>
-                    <span class="fragment"><li>2006 - Transport Layer Security 1.1</li></span>
-                    <span class="fragment"><li>2008 - Transport Layer Security 1.2</li></span>
+                    <span class="fragment">
+                        <li>1994 - Secure Socket Layer 1.0</li>
+                        <li>1995 - Secure Socket Layer 2.0</li>
+                        <li>1996 - Secure Socket Layer 3.0</li>
+                    </span>
+
+                    <span class="fragment">
+                        <li>1999 - Transport Layer Security 1.0</li>
+                        <li>2006 - Transport Layer Security 1.1</li>
+                        <li>2008 - Transport Layer Security 1.2</li>
+                    </span>
                 </ul>
             </section>
 
@@ -130,9 +135,9 @@
                 <h2>Chiffrement assymétrique</h2>
 
                 <ul>
-                    <span class="fragment"><li>Clef privée</li></span>
-                    <span class="fragment"><li>Clef publique</li></span>
+                    <span class="fragment"><li>Clef privée + publique</li></span>
                     <span class="fragment"><li>Lent</li></span>
+                    <span class="fragment"><li>Signature</li></span>
                     <span class="fragment"><li>RSA, DSA</li></span>
                     <span class="fragment"><li>ECDSA</li></span>
                 </ul>
@@ -168,6 +173,13 @@
             <section>
                 <h2>Établissement de la session</h2>
 
+                <span class="fragment"><img src="images/nego0.svg"></span>
+                <span class="fragment"><img src="images/nego1.svg"></span>
+                <span class="fragment"><img src="images/nego2.svg"></span>
+                <span class="fragment"><img src="images/nego3.svg"></span>
+                <span class="fragment"><img src="images/nego4.svg"></span>
+                <span class="fragment"><img src="images/nego5.svg"></span>
+                <span class="fragment"><img src="images/nego6.svg"></span>
             </section>
 
         </section>
@@ -182,7 +194,11 @@
                 <h2>Certificats auto-signés</h2>
 
                 <ul>
-                    <span class="fragment"><li>Cryptographiquement signé</li></span>
+                    <span class="fragment"><li>Signature ⇒ clef privée</li></span>
+                    <span class="fragment"><li>Vérification ⇒ clef publique</li></span>
+                    <span class="fragment"><li>Clef publique ⇒ certificat</li></span>
+                    <span class="fragment"><img src="images/certificat.svg"></span>
+                    <span class="fragment"><li>Confiance</li></span>
                 </ul>
             </section>
 
@@ -190,30 +206,60 @@
                 <h2>Chaînes de certification</h2>
 
                 <ul>
-                    <span class="fragment"><li>Tiers de confiance</li></span>
+                    <span class="fragment"><li>Exhaustivité</li></span>
+                    <span class="fragment"><li>Délégation</li></span>
                     <span class="fragment"><img src="images/chaine.svg"></span>
-                    <span class="fragment"><li>Qui surveille les surveillants ?</li></span>
                 </ul>
             </section>
 
             <section>
                 <h2>Autorités de certification</h2>
 
+                <ul>
+                    <span class="fragment"><li>Tiers de confiance</li></span>
+                    <span class="fragment"><li>Verisign, Thawte</span><span class="fragment">, <span
+                        class="orange">Moi</span>...</li></span>
+                    <span class="fragment"><li>Qui surveille les surveillants ?</li></span>
+                </ul>
             </section>
 
             <section>
                 <h2>Certificat compromis</h2>
+
+                <ul>
+                    <span class="fragment"><img src="images/compromission.svg"></span>
+                    <span class="fragment"><li>Invalidation multiples</li></span>
+                </ul>
 
             </section>
 
             <section>
                 <h2>Liste de révocations</h2>
 
+                <ul>
+                    <span class="fragment"><li>Éditée par les CA</li></span>
+                    <span class="fragment"><li>Gestion délicate</li></span>
+                </ul>
             </section>
 
             <section>
-                <h2>Online Certificate Status Protocol</h2>
+                <h2>OCSP</h2>
 
+                <ul>
+                    <span class="fragment"><li>Online Certificate Status Protocol</li></span>
+                    <span class="fragment"><li>Basé sur HTTP<span class="orange">S</span></li></span>
+                    <span class="fragment"><li>Limitations</li></span>
+                </ul>
+            </section>
+
+            <section>
+                <h2>DANE</h2>
+
+                <ul>
+                    <span class="fragment"><li>DNS-Based Authentication of Named Entities</li></span>
+                    <span class="fragment"><li>Basé sur DNSSEC</li></span>
+                    <span class="fragment"><li>Enregistrements TLSA</li></span>
+                </ul>
             </section>
 
         </section>
@@ -221,6 +267,11 @@
         <section>
             <h1>Conclusion</h1>
 
+            <ul>
+                <span class="fragment"><li>No silver bullet</li></span>
+                <span class="fragment"><li>Connaissance fonctionnement</li></span>
+                <span class="fragment"><li>Connaissance infrastructure</li></span>
+            </ul>
         </section>
     </div>
 
