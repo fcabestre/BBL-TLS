@@ -1,0 +1,23 @@
+.reveal h2 {
+    color: #b58900;
+}
+
+.reveal .orange {
+    color: #cb4b16;
+}
+
+.reveal .blue {
+    color: #268bd2;
+}
+
+.reveal .green {
+    color: #859900;
+}
+
+.reveal section img {
+    margin: 15px 0;
+    background: rgba(255, 255, 255, 0.12);
+    border: 0 solid;
+    box-shadow: 0 0 0;
+}
+
