@@ -1,0 +1,42 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 15544458295996118709 (0xd7b902764eb8f6b5)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=TW, ST=Taiwan, L=Taipei, O=Synology Inc., OU=Certificate Authority, CN=Synology Inc. CA/emailAddress=product@synology.com
+        Validity
+            Not Before: May 20 17:15:30 2014 GMT
+            Not After : Feb  4 17:15:30 2034 GMT
+        Subject: C=TW, ST=Taiwan, L=Taipei, O=Synology Inc., OU=Certificate Authority, CN=Synology Inc. CA/emailAddress=product@synology.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:a5:c1:49:a8:01:5c:6b:58:71:ad:04:cd:d5:e6:
+                    40:81:1f:d3:81:0c:75:48:6b:27:e3:32:5b:bb:66:
+                    57:0e:77:c7:92:5a:87:7c:5d:2e:38:97:09:a0:2f:
+                    a0:8e:16:ba:37:cc:34:1b:70:44:d0:b3:8f:bb:3b:
+                    a0:7f:e3:3f:b7:92:ad:48:62:6e:ad:24:2e:34:54:
+                    a2:4c:ba:3b:79:ae:32:8a:e3:ba:47:41:9f:fc:07:
+                    8c:85:af:93:49:87:c5:69:e6:6d:4f:51:1c:91:46:
+                    64:32:e8:44:0a:60:97:9b:13:14:10:29:ee:a9:cc:
+                    a9:76:2b:52:df:e5:ec:54:c9
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Alternative Name: 
+                email:product@synology.com
+            X509v3 Basic Constraints: 
+                CA:TRUE, pathlen:0
+            Netscape Comment: 
+                mod_ssl generated custom CA certificate
+            Netscape Cert Type: 
+                SSL CA
+    Signature Algorithm: sha1WithRSAEncryption
+         1d:2a:b5:2e:78:cb:72:71:bd:6c:18:2d:55:76:5a:8e:d4:5a:
+         51:0a:a8:6c:c1:60:a8:aa:d0:c8:b3:52:82:fc:48:76:0c:f1:
+         d8:42:48:89:6b:c2:34:66:6c:92:e1:7f:3d:c3:05:3d:d1:64:
+         3d:c3:11:01:ca:f8:67:3d:9b:8f:5c:68:c9:a1:5f:b7:27:d1:
+         a9:9f:b6:6a:37:49:7c:41:46:cb:66:ec:cf:d7:7c:85:90:a6:
+         e6:2d:55:dc:84:84:d8:a7:19:2f:f5:8d:59:01:fd:de:92:4b:
+         d3:8e:c6:7a:09:11:40:26:06:1a:1d:21:52:c1:5f:eb:04:5a:
+         be:de
